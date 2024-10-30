@@ -1,0 +1,20 @@
+<apex:page controller="NamedCredentialController">
+    <apex:form >
+        <div>
+            Using Named Credentials within the package:<br />
+            <apex:commandButton value="Call Packaged API" action="{!callPackagedApi}" reRender="response" />
+            <br /><br />
+            Using Named Credentials created in the client org:<br />
+            <apex:inputText value="{!manualApiEndpoint}" />
+            <apex:commandButton value="Call Unpackaged API" action="{!callUnpackagedApi}" reRender="response" />
+            
+        </div>
+        <div style="padding-top: 20px;">
+            <h3>Response</h3>
+            <br />
+            <apex:outputPanel id="response">
+                <apex:outputText value="{!response}" />
+            </apex:outputPanel>
+        </div>
+    </apex:form>
+</apex:page>

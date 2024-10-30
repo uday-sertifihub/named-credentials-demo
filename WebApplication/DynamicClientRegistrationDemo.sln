@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35312.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ids-server", "ids-server\ids-server.csproj", "{D775AB1A-DE2C-4060-B430-36D572830F86}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "weatherapi", "weatherapi\weatherapi.csproj", "{2ADBDD3E-2C8E-4D66-86FD-6483B709C162}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D775AB1A-DE2C-4060-B430-36D572830F86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D775AB1A-DE2C-4060-B430-36D572830F86}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D775AB1A-DE2C-4060-B430-36D572830F86}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D775AB1A-DE2C-4060-B430-36D572830F86}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2ADBDD3E-2C8E-4D66-86FD-6483B709C162}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2ADBDD3E-2C8E-4D66-86FD-6483B709C162}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2ADBDD3E-2C8E-4D66-86FD-6483B709C162}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2ADBDD3E-2C8E-4D66-86FD-6483B709C162}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {29D7166F-D008-4266-ACA9-A0C512D84824}
+	EndGlobalSection
+EndGlobal
